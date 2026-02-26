@@ -1,0 +1,12 @@
+{
+  "name": "openclaw-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept for headless OpenClaw execution",
+  "main": "runner.js",
+  "scripts": {
+    "start": "node runner.js"
+  },
+  "dependencies": {
+    "openclaw": "latest"
+  }
+}

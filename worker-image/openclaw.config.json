@@ -1,0 +1,16 @@
+{
+  "mode": "headless",
+  "llm": {
+    "provider": "google",
+    "model": "gemini-1.5-pro",
+    "temperature": 0.1
+  },
+  "skills": [
+    "fs",
+    "shell"
+  ],
+  "security": {
+    "allow_shell_commands": true,
+    "sandbox_mode": false 
+  }
+}
